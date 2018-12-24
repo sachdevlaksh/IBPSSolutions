@@ -1,0 +1,317 @@
+Discovering types from business network definition ...
+Discovered types from business network definition
+Generating schemas for all types in business network definition ...
+Generated schemas for all types in business network definition
+Adding schemas for all types to Loopback ...
+Added schemas for all types to Loopback
+Web server listening at: http://localhost:3000
+Browse your REST API at http://localhost:3000/explorer
+Discovering types from business network definition ...
+Discovered types from business network definition
+Generating schemas for all types in business network definition ...
+Generated schemas for all types in business network definition
+Adding schemas for all types to Loopback ...
+Added schemas for all types to Loopback
+Web server listening at: http://localhost:3000
+Browse your REST API at http://localhost:3000/explorer
+Unhandled error for request POST /api/Verification: Error: Error trying invoke business network. Error: No valid responses from any peers.
+Response from attempted peer comms was an error: Error: 2 UNKNOWN: error executing chaincode: transaction returned with failure: Error: attempt to set property status on an InvalidRelationship is not allowed. InvalidRelationship created due to Object with ID 'N4444555' in collection with ID 'Asset:org.kapy.payments.Nursery' does not exist
+    at HLFConnection.invokeChainCode (/home/ubuntu/.nvm/versions/node/v8.11.1/lib/node_modules/composer-rest-server/node_modules/composer-connector-hlfv1/lib/hlfconnection.js:999:30)
+    at <anonymous>
+Unhandled error for request GET /api/Verification/4444555: Error: Unknown "Verification" id "4444555".
+    at Function.convertNullToNotFoundError (/home/ubuntu/.nvm/versions/node/v8.11.1/lib/node_modules/composer-rest-server/node_modules/loopback/lib/persisted-model.js:89:17)
+    at invokeRestAfter (/home/ubuntu/.nvm/versions/node/v8.11.1/lib/node_modules/composer-rest-server/node_modules/strong-remoting/lib/rest-adapter.js:531:25)
+    at /home/ubuntu/.nvm/versions/node/v8.11.1/lib/node_modules/composer-rest-server/node_modules/strong-remoting/node_modules/async/dist/async.js:3880:24
+    at replenish (/home/ubuntu/.nvm/versions/node/v8.11.1/lib/node_modules/composer-rest-server/node_modules/strong-remoting/node_modules/async/dist/async.js:1011:17)
+    at iterateeCallback (/home/ubuntu/.nvm/versions/node/v8.11.1/lib/node_modules/composer-rest-server/node_modules/strong-remoting/node_modules/async/dist/async.js:995:17)
+    at /home/ubuntu/.nvm/versions/node/v8.11.1/lib/node_modules/composer-rest-server/node_modules/strong-remoting/node_modules/async/dist/async.js:969:16
+    at /home/ubuntu/.nvm/versions/node/v8.11.1/lib/node_modules/composer-rest-server/node_modules/strong-remoting/node_modules/async/dist/async.js:3885:13
+    at interceptInvocationErrors (/home/ubuntu/.nvm/versions/node/v8.11.1/lib/node_modules/composer-rest-server/node_modules/strong-remoting/lib/remote-objects.js:724:22)
+    at /home/ubuntu/.nvm/versions/node/v8.11.1/lib/node_modules/composer-rest-server/node_modules/strong-remoting/node_modules/async/dist/async.js:473:16
+    at replenish (/home/ubuntu/.nvm/versions/node/v8.11.1/lib/node_modules/composer-rest-server/node_modules/strong-remoting/node_modules/async/dist/async.js:1006:25)
+    at iterateeCallback (/home/ubuntu/.nvm/versions/node/v8.11.1/lib/node_modules/composer-rest-server/node_modules/strong-remoting/node_modules/async/dist/async.js:995:17)
+    at /home/ubuntu/.nvm/versions/node/v8.11.1/lib/node_modules/composer-rest-server/node_modules/strong-remoting/node_modules/async/dist/async.js:969:16
+    at /home/ubuntu/.nvm/versions/node/v8.11.1/lib/node_modules/composer-rest-server/node_modules/strong-remoting/node_modules/async/dist/async.js:473:16
+    at replenish (/home/ubuntu/.nvm/versions/node/v8.11.1/lib/node_modules/composer-rest-server/node_modules/strong-remoting/node_modules/async/dist/async.js:1006:25)
+    at iterateeCallback (/home/ubuntu/.nvm/versions/node/v8.11.1/lib/node_modules/composer-rest-server/node_modules/strong-remoting/node_modules/async/dist/async.js:995:17)
+    at /home/ubuntu/.nvm/versions/node/v8.11.1/lib/node_modules/composer-rest-server/node_modules/strong-remoting/node_modules/async/dist/async.js:969:16
+Discovering types from business network definition ...
+Connection fails: Error: Card not found: admin@nursery-network
+It will be retried for the next request.
+Exception: Error: Card not found: admin@nursery-network
+{ Error: Card not found: admin@nursery-network
+    at store.get.then.catch (/home/ubuntu/.nvm/versions/node/v8.11.1/lib/node_modules/composer-rest-server/node_modules/composer-common/lib/cardstore/walletbackedcardstore.js:74:27)
+    at <anonymous>
+  cause: 
+   { Error: ENOENT: no such file or directory, open '/home/ubuntu/.composer/cards/admin@nursery-network'
+    at Object.fs.openSync (fs.js:646:18)
+    at Object.fs.readFileSync (fs.js:551:33)
+    at FileSystemWallet.get (/home/ubuntu/.nvm/versions/node/v8.11.1/lib/node_modules/composer-rest-server/node_modules/composer-wallet-filesystem/lib/filesystemwallet.js:145:34)
+    at <anonymous>
+     errno: -2,
+     code: 'ENOENT',
+     syscall: 'open',
+     path: '/home/ubuntu/.composer/cards/admin@nursery-network' } }
+Discovering types from business network definition ...
+Discovered types from business network definition
+Generating schemas for all types in business network definition ...
+Generated schemas for all types in business network definition
+Adding schemas for all types to Loopback ...
+Added schemas for all types to Loopback
+Web server listening at: http://localhost:3000
+Browse your REST API at http://localhost:3000/explorer
+Unhandled error for request POST /api/Verification: Error: Error trying invoke business network. Error: No valid responses from any peers.
+Response from attempted peer comms was an error: Error: 2 UNKNOWN: error executing chaincode: transaction returned with failure: Error: attempt to set property status on an InvalidRelationship is not allowed. InvalidRelationship created due to Object with ID 'N999999241' in collection with ID 'Asset:org.kapy.payments.Nursery' does not exist
+    at HLFConnection.invokeChainCode (/home/ubuntu/.nvm/versions/node/v8.11.1/lib/node_modules/composer-rest-server/node_modules/composer-connector-hlfv1/lib/hlfconnection.js:999:30)
+    at <anonymous>
+Unhandled error for request POST /api/Nursery: Error: Error trying invoke business network. Error: No valid responses from any peers.
+Response from attempted peer comms was an error: Error: 2 UNKNOWN: error executing chaincode: transaction returned with failure: Error: Failed to add object with ID 'N999999241' in collection with ID 'Asset:org.kapy.payments.Nursery' as the object already exists
+    at HLFConnection.invokeChainCode (/home/ubuntu/.nvm/versions/node/v8.11.1/lib/node_modules/composer-rest-server/node_modules/composer-connector-hlfv1/lib/hlfconnection.js:999:30)
+    at <anonymous>
+Unhandled error for request POST /api/Nursery: Error: Error trying invoke business network. Error: No valid responses from any peers.
+Response from attempted peer comms was an error: Error: 2 UNKNOWN: error executing chaincode: transaction returned with failure: Error: Failed to add object with ID 'N999999241' in collection with ID 'Asset:org.kapy.payments.Nursery' as the object already exists
+    at HLFConnection.invokeChainCode (/home/ubuntu/.nvm/versions/node/v8.11.1/lib/node_modules/composer-rest-server/node_modules/composer-connector-hlfv1/lib/hlfconnection.js:999:30)
+    at <anonymous>
+Unhandled error for request POST /api/Nursery: Error: Error trying invoke business network. Error: No valid responses from any peers.
+Response from attempted peer comms was an error: Error: 2 UNKNOWN: error executing chaincode: transaction returned with failure: Error: Failed to add object with ID 'N999999241' in collection with ID 'Asset:org.kapy.payments.Nursery' as the object already exists
+    at HLFConnection.invokeChainCode (/home/ubuntu/.nvm/versions/node/v8.11.1/lib/node_modules/composer-rest-server/node_modules/composer-connector-hlfv1/lib/hlfconnection.js:999:30)
+    at <anonymous>
+Unhandled error for request POST /api/Monitoring: Error: Error trying invoke business network. Error: No valid responses from any peers.
+Response from attempted peer comms was an error: Error: 2 UNKNOWN: error executing chaincode: transaction returned with failure: Error: attempt to get property inspectionCompletedForYear on an InvalidRelationship is not allowed. InvalidRelationship created due to Object with ID 'I999999241' in collection with ID 'Asset:org.kapy.payments.GoK' does not exist
+    at HLFConnection.invokeChainCode (/home/ubuntu/.nvm/versions/node/v8.11.1/lib/node_modules/composer-rest-server/node_modules/composer-connector-hlfv1/lib/hlfconnection.js:999:30)
+    at <anonymous>
+Unhandled error for request GET /api/Monitoring/999999241: Error: Unknown "Monitoring" id "999999241".
+    at Function.convertNullToNotFoundError (/home/ubuntu/.nvm/versions/node/v8.11.1/lib/node_modules/composer-rest-server/node_modules/loopback/lib/persisted-model.js:89:17)
+    at invokeRestAfter (/home/ubuntu/.nvm/versions/node/v8.11.1/lib/node_modules/composer-rest-server/node_modules/strong-remoting/lib/rest-adapter.js:531:25)
+    at /home/ubuntu/.nvm/versions/node/v8.11.1/lib/node_modules/composer-rest-server/node_modules/strong-remoting/node_modules/async/dist/async.js:3880:24
+    at replenish (/home/ubuntu/.nvm/versions/node/v8.11.1/lib/node_modules/composer-rest-server/node_modules/strong-remoting/node_modules/async/dist/async.js:1011:17)
+    at iterateeCallback (/home/ubuntu/.nvm/versions/node/v8.11.1/lib/node_modules/composer-rest-server/node_modules/strong-remoting/node_modules/async/dist/async.js:995:17)
+    at /home/ubuntu/.nvm/versions/node/v8.11.1/lib/node_modules/composer-rest-server/node_modules/strong-remoting/node_modules/async/dist/async.js:969:16
+    at /home/ubuntu/.nvm/versions/node/v8.11.1/lib/node_modules/composer-rest-server/node_modules/strong-remoting/node_modules/async/dist/async.js:3885:13
+    at interceptInvocationErrors (/home/ubuntu/.nvm/versions/node/v8.11.1/lib/node_modules/composer-rest-server/node_modules/strong-remoting/lib/remote-objects.js:724:22)
+    at /home/ubuntu/.nvm/versions/node/v8.11.1/lib/node_modules/composer-rest-server/node_modules/strong-remoting/node_modules/async/dist/async.js:473:16
+    at replenish (/home/ubuntu/.nvm/versions/node/v8.11.1/lib/node_modules/composer-rest-server/node_modules/strong-remoting/node_modules/async/dist/async.js:1006:25)
+    at iterateeCallback (/home/ubuntu/.nvm/versions/node/v8.11.1/lib/node_modules/composer-rest-server/node_modules/strong-remoting/node_modules/async/dist/async.js:995:17)
+    at /home/ubuntu/.nvm/versions/node/v8.11.1/lib/node_modules/composer-rest-server/node_modules/strong-remoting/node_modules/async/dist/async.js:969:16
+    at /home/ubuntu/.nvm/versions/node/v8.11.1/lib/node_modules/composer-rest-server/node_modules/strong-remoting/node_modules/async/dist/async.js:473:16
+    at replenish (/home/ubuntu/.nvm/versions/node/v8.11.1/lib/node_modules/composer-rest-server/node_modules/strong-remoting/node_modules/async/dist/async.js:1006:25)
+    at iterateeCallback (/home/ubuntu/.nvm/versions/node/v8.11.1/lib/node_modules/composer-rest-server/node_modules/strong-remoting/node_modules/async/dist/async.js:995:17)
+    at /home/ubuntu/.nvm/versions/node/v8.11.1/lib/node_modules/composer-rest-server/node_modules/strong-remoting/node_modules/async/dist/async.js:969:16
+Unhandled error for request POST /api/Verification: Error: Error trying invoke business network. Error: No valid responses from any peers.
+Response from attempted peer comms was an error: Error: 2 UNKNOWN: error executing chaincode: transaction returned with failure: Error: attempt to set property status on an InvalidRelationship is not allowed. InvalidRelationship created due to Object with ID 'N1224251' in collection with ID 'Asset:org.kapy.payments.Nursery' does not exist
+    at HLFConnection.invokeChainCode (/home/ubuntu/.nvm/versions/node/v8.11.1/lib/node_modules/composer-rest-server/node_modules/composer-connector-hlfv1/lib/hlfconnection.js:999:30)
+    at <anonymous>
+Unhandled error for request GET /api/Verification/1224251: Error: Unknown "Verification" id "1224251".
+    at Function.convertNullToNotFoundError (/home/ubuntu/.nvm/versions/node/v8.11.1/lib/node_modules/composer-rest-server/node_modules/loopback/lib/persisted-model.js:89:17)
+    at invokeRestAfter (/home/ubuntu/.nvm/versions/node/v8.11.1/lib/node_modules/composer-rest-server/node_modules/strong-remoting/lib/rest-adapter.js:531:25)
+    at /home/ubuntu/.nvm/versions/node/v8.11.1/lib/node_modules/composer-rest-server/node_modules/strong-remoting/node_modules/async/dist/async.js:3880:24
+    at replenish (/home/ubuntu/.nvm/versions/node/v8.11.1/lib/node_modules/composer-rest-server/node_modules/strong-remoting/node_modules/async/dist/async.js:1011:17)
+    at iterateeCallback (/home/ubuntu/.nvm/versions/node/v8.11.1/lib/node_modules/composer-rest-server/node_modules/strong-remoting/node_modules/async/dist/async.js:995:17)
+    at /home/ubuntu/.nvm/versions/node/v8.11.1/lib/node_modules/composer-rest-server/node_modules/strong-remoting/node_modules/async/dist/async.js:969:16
+    at /home/ubuntu/.nvm/versions/node/v8.11.1/lib/node_modules/composer-rest-server/node_modules/strong-remoting/node_modules/async/dist/async.js:3885:13
+    at interceptInvocationErrors (/home/ubuntu/.nvm/versions/node/v8.11.1/lib/node_modules/composer-rest-server/node_modules/strong-remoting/lib/remote-objects.js:724:22)
+    at /home/ubuntu/.nvm/versions/node/v8.11.1/lib/node_modules/composer-rest-server/node_modules/strong-remoting/node_modules/async/dist/async.js:473:16
+    at replenish (/home/ubuntu/.nvm/versions/node/v8.11.1/lib/node_modules/composer-rest-server/node_modules/strong-remoting/node_modules/async/dist/async.js:1006:25)
+    at iterateeCallback (/home/ubuntu/.nvm/versions/node/v8.11.1/lib/node_modules/composer-rest-server/node_modules/strong-remoting/node_modules/async/dist/async.js:995:17)
+    at /home/ubuntu/.nvm/versions/node/v8.11.1/lib/node_modules/composer-rest-server/node_modules/strong-remoting/node_modules/async/dist/async.js:969:16
+    at /home/ubuntu/.nvm/versions/node/v8.11.1/lib/node_modules/composer-rest-server/node_modules/strong-remoting/node_modules/async/dist/async.js:473:16
+    at replenish (/home/ubuntu/.nvm/versions/node/v8.11.1/lib/node_modules/composer-rest-server/node_modules/strong-remoting/node_modules/async/dist/async.js:1006:25)
+    at iterateeCallback (/home/ubuntu/.nvm/versions/node/v8.11.1/lib/node_modules/composer-rest-server/node_modules/strong-remoting/node_modules/async/dist/async.js:995:17)
+    at /home/ubuntu/.nvm/versions/node/v8.11.1/lib/node_modules/composer-rest-server/node_modules/strong-remoting/node_modules/async/dist/async.js:969:16
+Unhandled error for request GET /api/Verification/1224251: Error: Unknown "Verification" id "1224251".
+    at Function.convertNullToNotFoundError (/home/ubuntu/.nvm/versions/node/v8.11.1/lib/node_modules/composer-rest-server/node_modules/loopback/lib/persisted-model.js:89:17)
+    at invokeRestAfter (/home/ubuntu/.nvm/versions/node/v8.11.1/lib/node_modules/composer-rest-server/node_modules/strong-remoting/lib/rest-adapter.js:531:25)
+    at /home/ubuntu/.nvm/versions/node/v8.11.1/lib/node_modules/composer-rest-server/node_modules/strong-remoting/node_modules/async/dist/async.js:3880:24
+    at replenish (/home/ubuntu/.nvm/versions/node/v8.11.1/lib/node_modules/composer-rest-server/node_modules/strong-remoting/node_modules/async/dist/async.js:1011:17)
+    at iterateeCallback (/home/ubuntu/.nvm/versions/node/v8.11.1/lib/node_modules/composer-rest-server/node_modules/strong-remoting/node_modules/async/dist/async.js:995:17)
+    at /home/ubuntu/.nvm/versions/node/v8.11.1/lib/node_modules/composer-rest-server/node_modules/strong-remoting/node_modules/async/dist/async.js:969:16
+    at /home/ubuntu/.nvm/versions/node/v8.11.1/lib/node_modules/composer-rest-server/node_modules/strong-remoting/node_modules/async/dist/async.js:3885:13
+    at interceptInvocationErrors (/home/ubuntu/.nvm/versions/node/v8.11.1/lib/node_modules/composer-rest-server/node_modules/strong-remoting/lib/remote-objects.js:724:22)
+    at /home/ubuntu/.nvm/versions/node/v8.11.1/lib/node_modules/composer-rest-server/node_modules/strong-remoting/node_modules/async/dist/async.js:473:16
+    at replenish (/home/ubuntu/.nvm/versions/node/v8.11.1/lib/node_modules/composer-rest-server/node_modules/strong-remoting/node_modules/async/dist/async.js:1006:25)
+    at iterateeCallback (/home/ubuntu/.nvm/versions/node/v8.11.1/lib/node_modules/composer-rest-server/node_modules/strong-remoting/node_modules/async/dist/async.js:995:17)
+    at /home/ubuntu/.nvm/versions/node/v8.11.1/lib/node_modules/composer-rest-server/node_modules/strong-remoting/node_modules/async/dist/async.js:969:16
+    at /home/ubuntu/.nvm/versions/node/v8.11.1/lib/node_modules/composer-rest-server/node_modules/strong-remoting/node_modules/async/dist/async.js:473:16
+    at replenish (/home/ubuntu/.nvm/versions/node/v8.11.1/lib/node_modules/composer-rest-server/node_modules/strong-remoting/node_modules/async/dist/async.js:1006:25)
+    at iterateeCallback (/home/ubuntu/.nvm/versions/node/v8.11.1/lib/node_modules/composer-rest-server/node_modules/strong-remoting/node_modules/async/dist/async.js:995:17)
+    at /home/ubuntu/.nvm/versions/node/v8.11.1/lib/node_modules/composer-rest-server/node_modules/strong-remoting/node_modules/async/dist/async.js:969:16
+Discovering types from business network definition ...
+Discovered types from business network definition
+Generating schemas for all types in business network definition ...
+Generated schemas for all types in business network definition
+Adding schemas for all types to Loopback ...
+Added schemas for all types to Loopback
+Web server listening at: http://localhost:3000
+Browse your REST API at http://localhost:3000/explorer
+Unhandled error for request POST /api/Registration: Error: There is no method to handle POST /Registration
+    at restUrlNotFound (/home/ubuntu/.nvm/versions/node/v8.11.1/lib/node_modules/composer-rest-server/node_modules/strong-remoting/lib/rest-adapter.js:425:17)
+    at Layer.handle [as handle_request] (/home/ubuntu/.nvm/versions/node/v8.11.1/lib/node_modules/composer-rest-server/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/ubuntu/.nvm/versions/node/v8.11.1/lib/node_modules/composer-rest-server/node_modules/express/lib/router/index.js:317:13)
+    at /home/ubuntu/.nvm/versions/node/v8.11.1/lib/node_modules/composer-rest-server/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/ubuntu/.nvm/versions/node/v8.11.1/lib/node_modules/composer-rest-server/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/ubuntu/.nvm/versions/node/v8.11.1/lib/node_modules/composer-rest-server/node_modules/express/lib/router/index.js:275:10)
+    at jsonParser (/home/ubuntu/.nvm/versions/node/v8.11.1/lib/node_modules/composer-rest-server/node_modules/body-parser/lib/types/json.js:94:7)
+    at Layer.handle [as handle_request] (/home/ubuntu/.nvm/versions/node/v8.11.1/lib/node_modules/composer-rest-server/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/ubuntu/.nvm/versions/node/v8.11.1/lib/node_modules/composer-rest-server/node_modules/express/lib/router/index.js:317:13)
+    at /home/ubuntu/.nvm/versions/node/v8.11.1/lib/node_modules/composer-rest-server/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/ubuntu/.nvm/versions/node/v8.11.1/lib/node_modules/composer-rest-server/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/ubuntu/.nvm/versions/node/v8.11.1/lib/node_modules/composer-rest-server/node_modules/express/lib/router/index.js:275:10)
+    at urlencodedParser (/home/ubuntu/.nvm/versions/node/v8.11.1/lib/node_modules/composer-rest-server/node_modules/body-parser/lib/types/urlencoded.js:82:7)
+    at Layer.handle [as handle_request] (/home/ubuntu/.nvm/versions/node/v8.11.1/lib/node_modules/composer-rest-server/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/ubuntu/.nvm/versions/node/v8.11.1/lib/node_modules/composer-rest-server/node_modules/express/lib/router/index.js:317:13)
+    at /home/ubuntu/.nvm/versions/node/v8.11.1/lib/node_modules/composer-rest-server/node_modules/express/lib/router/index.js:284:7
+Unhandled error for request POST /api/Verification: Error: Invalid JSON data. Found a value that is not a string: [object Object] for relationship RelationshipDeclaration {name=nursery, type=org.kapy.payments.Nursery, array=false, optional=false}
+    at JSONPopulator.visitRelationshipDeclaration (/home/ubuntu/.nvm/versions/node/v8.11.1/lib/node_modules/composer-rest-server/node_modules/composer-common/lib/serializer/jsonpopulator.js:289:27)
+    at JSONPopulator.visit (/home/ubuntu/.nvm/versions/node/v8.11.1/lib/node_modules/composer-rest-server/node_modules/composer-common/lib/serializer/jsonpopulator.js:98:25)
+    at RelationshipDeclaration.accept (/home/ubuntu/.nvm/versions/node/v8.11.1/lib/node_modules/composer-rest-server/node_modules/composer-common/lib/introspect/decorated.js:65:24)
+    at properties.forEach (/home/ubuntu/.nvm/versions/node/v8.11.1/lib/node_modules/composer-rest-server/node_modules/composer-common/lib/serializer/jsonpopulator.js:124:51)
+    at Array.forEach (<anonymous>)
+    at JSONPopulator.visitClassDeclaration (/home/ubuntu/.nvm/versions/node/v8.11.1/lib/node_modules/composer-rest-server/node_modules/composer-common/lib/serializer/jsonpopulator.js:120:20)
+    at JSONPopulator.visit (/home/ubuntu/.nvm/versions/node/v8.11.1/lib/node_modules/composer-rest-server/node_modules/composer-common/lib/serializer/jsonpopulator.js:96:25)
+    at TransactionDeclaration.accept (/home/ubuntu/.nvm/versions/node/v8.11.1/lib/node_modules/composer-rest-server/node_modules/composer-common/lib/introspect/decorated.js:65:24)
+    at Serializer.fromJSON (/home/ubuntu/.nvm/versions/node/v8.11.1/lib/node_modules/composer-rest-server/node_modules/composer-common/lib/serializer.js:180:26)
+    at ensureConnected.then (/home/ubuntu/.nvm/versions/node/v8.11.1/lib/node_modules/composer-rest-server/node_modules/loopback-connector-composer/lib/businessnetworkconnector.js:634:43)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+Unhandled error for request GET /api/LandRecord/2424161: Error: Unknown "LandRecord" id "2424161".
+    at Function.convertNullToNotFoundError (/home/ubuntu/.nvm/versions/node/v8.11.1/lib/node_modules/composer-rest-server/node_modules/loopback/lib/persisted-model.js:89:17)
+    at invokeRestAfter (/home/ubuntu/.nvm/versions/node/v8.11.1/lib/node_modules/composer-rest-server/node_modules/strong-remoting/lib/rest-adapter.js:531:25)
+    at /home/ubuntu/.nvm/versions/node/v8.11.1/lib/node_modules/composer-rest-server/node_modules/strong-remoting/node_modules/async/dist/async.js:3880:24
+    at replenish (/home/ubuntu/.nvm/versions/node/v8.11.1/lib/node_modules/composer-rest-server/node_modules/strong-remoting/node_modules/async/dist/async.js:1011:17)
+    at iterateeCallback (/home/ubuntu/.nvm/versions/node/v8.11.1/lib/node_modules/composer-rest-server/node_modules/strong-remoting/node_modules/async/dist/async.js:995:17)
+    at /home/ubuntu/.nvm/versions/node/v8.11.1/lib/node_modules/composer-rest-server/node_modules/strong-remoting/node_modules/async/dist/async.js:969:16
+    at /home/ubuntu/.nvm/versions/node/v8.11.1/lib/node_modules/composer-rest-server/node_modules/strong-remoting/node_modules/async/dist/async.js:3885:13
+    at interceptInvocationErrors (/home/ubuntu/.nvm/versions/node/v8.11.1/lib/node_modules/composer-rest-server/node_modules/strong-remoting/lib/remote-objects.js:724:22)
+    at /home/ubuntu/.nvm/versions/node/v8.11.1/lib/node_modules/composer-rest-server/node_modules/strong-remoting/node_modules/async/dist/async.js:473:16
+    at replenish (/home/ubuntu/.nvm/versions/node/v8.11.1/lib/node_modules/composer-rest-server/node_modules/strong-remoting/node_modules/async/dist/async.js:1006:25)
+    at iterateeCallback (/home/ubuntu/.nvm/versions/node/v8.11.1/lib/node_modules/composer-rest-server/node_modules/strong-remoting/node_modules/async/dist/async.js:995:17)
+    at /home/ubuntu/.nvm/versions/node/v8.11.1/lib/node_modules/composer-rest-server/node_modules/strong-remoting/node_modules/async/dist/async.js:969:16
+    at /home/ubuntu/.nvm/versions/node/v8.11.1/lib/node_modules/composer-rest-server/node_modules/strong-remoting/node_modules/async/dist/async.js:473:16
+    at replenish (/home/ubuntu/.nvm/versions/node/v8.11.1/lib/node_modules/composer-rest-server/node_modules/strong-remoting/node_modules/async/dist/async.js:1006:25)
+    at iterateeCallback (/home/ubuntu/.nvm/versions/node/v8.11.1/lib/node_modules/composer-rest-server/node_modules/strong-remoting/node_modules/async/dist/async.js:995:17)
+    at /home/ubuntu/.nvm/versions/node/v8.11.1/lib/node_modules/composer-rest-server/node_modules/strong-remoting/node_modules/async/dist/async.js:969:16
+Unhandled error for request POST /api/Verification: Error: Invalid JSON data. Found a value that is not a string: [object Object] for relationship RelationshipDeclaration {name=nursery, type=org.kapy.payments.Nursery, array=false, optional=false}
+    at JSONPopulator.visitRelationshipDeclaration (/home/ubuntu/.nvm/versions/node/v8.11.1/lib/node_modules/composer-rest-server/node_modules/composer-common/lib/serializer/jsonpopulator.js:289:27)
+    at JSONPopulator.visit (/home/ubuntu/.nvm/versions/node/v8.11.1/lib/node_modules/composer-rest-server/node_modules/composer-common/lib/serializer/jsonpopulator.js:98:25)
+    at RelationshipDeclaration.accept (/home/ubuntu/.nvm/versions/node/v8.11.1/lib/node_modules/composer-rest-server/node_modules/composer-common/lib/introspect/decorated.js:65:24)
+    at properties.forEach (/home/ubuntu/.nvm/versions/node/v8.11.1/lib/node_modules/composer-rest-server/node_modules/composer-common/lib/serializer/jsonpopulator.js:124:51)
+    at Array.forEach (<anonymous>)
+    at JSONPopulator.visitClassDeclaration (/home/ubuntu/.nvm/versions/node/v8.11.1/lib/node_modules/composer-rest-server/node_modules/composer-common/lib/serializer/jsonpopulator.js:120:20)
+    at JSONPopulator.visit (/home/ubuntu/.nvm/versions/node/v8.11.1/lib/node_modules/composer-rest-server/node_modules/composer-common/lib/serializer/jsonpopulator.js:96:25)
+    at TransactionDeclaration.accept (/home/ubuntu/.nvm/versions/node/v8.11.1/lib/node_modules/composer-rest-server/node_modules/composer-common/lib/introspect/decorated.js:65:24)
+    at Serializer.fromJSON (/home/ubuntu/.nvm/versions/node/v8.11.1/lib/node_modules/composer-rest-server/node_modules/composer-common/lib/serializer.js:180:26)
+    at ensureConnected.then (/home/ubuntu/.nvm/versions/node/v8.11.1/lib/node_modules/composer-rest-server/node_modules/loopback-connector-composer/lib/businessnetworkconnector.js:634:43)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+Discovering types from business network definition ...
+Discovered types from business network definition
+Generating schemas for all types in business network definition ...
+Generated schemas for all types in business network definition
+Adding schemas for all types to Loopback ...
+Added schemas for all types to Loopback
+Web server listening at: http://localhost:3000
+Browse your REST API at http://localhost:3000/explorer
+Unhandled error for request POST /api/Verification: Error: Invalid JSON data. Found a value that is not a string: [object Object] for relationship RelationshipDeclaration {name=nursery, type=org.kapy.payments.Nursery, array=false, optional=false}
+    at JSONPopulator.visitRelationshipDeclaration (/home/ubuntu/.nvm/versions/node/v8.11.1/lib/node_modules/composer-rest-server/node_modules/composer-common/lib/serializer/jsonpopulator.js:289:27)
+    at JSONPopulator.visit (/home/ubuntu/.nvm/versions/node/v8.11.1/lib/node_modules/composer-rest-server/node_modules/composer-common/lib/serializer/jsonpopulator.js:98:25)
+    at RelationshipDeclaration.accept (/home/ubuntu/.nvm/versions/node/v8.11.1/lib/node_modules/composer-rest-server/node_modules/composer-common/lib/introspect/decorated.js:65:24)
+    at properties.forEach (/home/ubuntu/.nvm/versions/node/v8.11.1/lib/node_modules/composer-rest-server/node_modules/composer-common/lib/serializer/jsonpopulator.js:124:51)
+    at Array.forEach (<anonymous>)
+    at JSONPopulator.visitClassDeclaration (/home/ubuntu/.nvm/versions/node/v8.11.1/lib/node_modules/composer-rest-server/node_modules/composer-common/lib/serializer/jsonpopulator.js:120:20)
+    at JSONPopulator.visit (/home/ubuntu/.nvm/versions/node/v8.11.1/lib/node_modules/composer-rest-server/node_modules/composer-common/lib/serializer/jsonpopulator.js:96:25)
+    at TransactionDeclaration.accept (/home/ubuntu/.nvm/versions/node/v8.11.1/lib/node_modules/composer-rest-server/node_modules/composer-common/lib/introspect/decorated.js:65:24)
+    at Serializer.fromJSON (/home/ubuntu/.nvm/versions/node/v8.11.1/lib/node_modules/composer-rest-server/node_modules/composer-common/lib/serializer.js:180:26)
+    at ensureConnected.then (/home/ubuntu/.nvm/versions/node/v8.11.1/lib/node_modules/composer-rest-server/node_modules/loopback-connector-composer/lib/businessnetworkconnector.js:634:43)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+Unhandled error for request POST /api/Verification: Error: Invalid JSON data. Found a value that is not a string: [object Object] for relationship RelationshipDeclaration {name=nursery, type=org.kapy.payments.Nursery, array=false, optional=false}
+    at JSONPopulator.visitRelationshipDeclaration (/home/ubuntu/.nvm/versions/node/v8.11.1/lib/node_modules/composer-rest-server/node_modules/composer-common/lib/serializer/jsonpopulator.js:289:27)
+    at JSONPopulator.visit (/home/ubuntu/.nvm/versions/node/v8.11.1/lib/node_modules/composer-rest-server/node_modules/composer-common/lib/serializer/jsonpopulator.js:98:25)
+    at RelationshipDeclaration.accept (/home/ubuntu/.nvm/versions/node/v8.11.1/lib/node_modules/composer-rest-server/node_modules/composer-common/lib/introspect/decorated.js:65:24)
+    at properties.forEach (/home/ubuntu/.nvm/versions/node/v8.11.1/lib/node_modules/composer-rest-server/node_modules/composer-common/lib/serializer/jsonpopulator.js:124:51)
+    at Array.forEach (<anonymous>)
+    at JSONPopulator.visitClassDeclaration (/home/ubuntu/.nvm/versions/node/v8.11.1/lib/node_modules/composer-rest-server/node_modules/composer-common/lib/serializer/jsonpopulator.js:120:20)
+    at JSONPopulator.visit (/home/ubuntu/.nvm/versions/node/v8.11.1/lib/node_modules/composer-rest-server/node_modules/composer-common/lib/serializer/jsonpopulator.js:96:25)
+    at TransactionDeclaration.accept (/home/ubuntu/.nvm/versions/node/v8.11.1/lib/node_modules/composer-rest-server/node_modules/composer-common/lib/introspect/decorated.js:65:24)
+    at Serializer.fromJSON (/home/ubuntu/.nvm/versions/node/v8.11.1/lib/node_modules/composer-rest-server/node_modules/composer-common/lib/serializer.js:180:26)
+    at ensureConnected.then (/home/ubuntu/.nvm/versions/node/v8.11.1/lib/node_modules/composer-rest-server/node_modules/loopback-connector-composer/lib/businessnetworkconnector.js:634:43)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+Unhandled error for request POST /api/Verification: Error: Invalid JSON data. Found a value that is not a string: [object Object] for relationship RelationshipDeclaration {name=nursery, type=org.kapy.payments.Nursery, array=false, optional=false}
+    at JSONPopulator.visitRelationshipDeclaration (/home/ubuntu/.nvm/versions/node/v8.11.1/lib/node_modules/composer-rest-server/node_modules/composer-common/lib/serializer/jsonpopulator.js:289:27)
+    at JSONPopulator.visit (/home/ubuntu/.nvm/versions/node/v8.11.1/lib/node_modules/composer-rest-server/node_modules/composer-common/lib/serializer/jsonpopulator.js:98:25)
+    at RelationshipDeclaration.accept (/home/ubuntu/.nvm/versions/node/v8.11.1/lib/node_modules/composer-rest-server/node_modules/composer-common/lib/introspect/decorated.js:65:24)
+    at properties.forEach (/home/ubuntu/.nvm/versions/node/v8.11.1/lib/node_modules/composer-rest-server/node_modules/composer-common/lib/serializer/jsonpopulator.js:124:51)
+    at Array.forEach (<anonymous>)
+    at JSONPopulator.visitClassDeclaration (/home/ubuntu/.nvm/versions/node/v8.11.1/lib/node_modules/composer-rest-server/node_modules/composer-common/lib/serializer/jsonpopulator.js:120:20)
+    at JSONPopulator.visit (/home/ubuntu/.nvm/versions/node/v8.11.1/lib/node_modules/composer-rest-server/node_modules/composer-common/lib/serializer/jsonpopulator.js:96:25)
+    at TransactionDeclaration.accept (/home/ubuntu/.nvm/versions/node/v8.11.1/lib/node_modules/composer-rest-server/node_modules/composer-common/lib/introspect/decorated.js:65:24)
+    at Serializer.fromJSON (/home/ubuntu/.nvm/versions/node/v8.11.1/lib/node_modules/composer-rest-server/node_modules/composer-common/lib/serializer.js:180:26)
+    at ensureConnected.then (/home/ubuntu/.nvm/versions/node/v8.11.1/lib/node_modules/composer-rest-server/node_modules/loopback-connector-composer/lib/businessnetworkconnector.js:634:43)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+Unhandled error for request POST /api/Verification: Error: Invalid JSON data. Found a value that is not a string: [object Object] for relationship RelationshipDeclaration {name=nursery, type=org.kapy.payments.Nursery, array=false, optional=false}
+    at JSONPopulator.visitRelationshipDeclaration (/home/ubuntu/.nvm/versions/node/v8.11.1/lib/node_modules/composer-rest-server/node_modules/composer-common/lib/serializer/jsonpopulator.js:289:27)
+    at JSONPopulator.visit (/home/ubuntu/.nvm/versions/node/v8.11.1/lib/node_modules/composer-rest-server/node_modules/composer-common/lib/serializer/jsonpopulator.js:98:25)
+    at RelationshipDeclaration.accept (/home/ubuntu/.nvm/versions/node/v8.11.1/lib/node_modules/composer-rest-server/node_modules/composer-common/lib/introspect/decorated.js:65:24)
+    at properties.forEach (/home/ubuntu/.nvm/versions/node/v8.11.1/lib/node_modules/composer-rest-server/node_modules/composer-common/lib/serializer/jsonpopulator.js:124:51)
+    at Array.forEach (<anonymous>)
+    at JSONPopulator.visitClassDeclaration (/home/ubuntu/.nvm/versions/node/v8.11.1/lib/node_modules/composer-rest-server/node_modules/composer-common/lib/serializer/jsonpopulator.js:120:20)
+    at JSONPopulator.visit (/home/ubuntu/.nvm/versions/node/v8.11.1/lib/node_modules/composer-rest-server/node_modules/composer-common/lib/serializer/jsonpopulator.js:96:25)
+    at TransactionDeclaration.accept (/home/ubuntu/.nvm/versions/node/v8.11.1/lib/node_modules/composer-rest-server/node_modules/composer-common/lib/introspect/decorated.js:65:24)
+    at Serializer.fromJSON (/home/ubuntu/.nvm/versions/node/v8.11.1/lib/node_modules/composer-rest-server/node_modules/composer-common/lib/serializer.js:180:26)
+    at ensureConnected.then (/home/ubuntu/.nvm/versions/node/v8.11.1/lib/node_modules/composer-rest-server/node_modules/loopback-connector-composer/lib/businessnetworkconnector.js:634:43)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+Unhandled error for request POST /api/Verification: Error: Error trying invoke business network. Error: No valid responses from any peers.
+Response from attempted peer comms was an error: Error: 2 UNKNOWN: error executing chaincode: transaction returned with failure: Error: attempt to set property status on an InvalidRelationship is not allowed. InvalidRelationship created due to Object with ID 'N3434242' in collection with ID 'Asset:org.kapy.payments.Nursery' does not exist
+    at HLFConnection.invokeChainCode (/home/ubuntu/.nvm/versions/node/v8.11.1/lib/node_modules/composer-rest-server/node_modules/composer-connector-hlfv1/lib/hlfconnection.js:999:30)
+    at <anonymous>
+Unhandled error for request POST /api/Nursery: Error: Error trying invoke business network. Error: No valid responses from any peers.
+Response from attempted peer comms was an error: Error: 2 UNKNOWN: error executing chaincode: transaction returned with failure: Error: Failed to add object with ID 'N3434242' in collection with ID 'Asset:org.kapy.payments.Nursery' as the object already exists
+    at HLFConnection.invokeChainCode (/home/ubuntu/.nvm/versions/node/v8.11.1/lib/node_modules/composer-rest-server/node_modules/composer-connector-hlfv1/lib/hlfconnection.js:999:30)
+    at <anonymous>
+Unhandled error for request POST /api/Nursery: Error: Error trying invoke business network. Error: No valid responses from any peers.
+Response from attempted peer comms was an error: Error: 2 UNKNOWN: error executing chaincode: transaction returned with failure: Error: Failed to add object with ID 'N3434242' in collection with ID 'Asset:org.kapy.payments.Nursery' as the object already exists
+    at HLFConnection.invokeChainCode (/home/ubuntu/.nvm/versions/node/v8.11.1/lib/node_modules/composer-rest-server/node_modules/composer-connector-hlfv1/lib/hlfconnection.js:999:30)
+    at <anonymous>
+Unhandled error for request POST /api/Nursery: Error: Error trying invoke business network. Error: No valid responses from any peers.
+Response from attempted peer comms was an error: Error: 2 UNKNOWN: error executing chaincode: transaction returned with failure: Error: Failed to add object with ID 'N3434242' in collection with ID 'Asset:org.kapy.payments.Nursery' as the object already exists
+    at HLFConnection.invokeChainCode (/home/ubuntu/.nvm/versions/node/v8.11.1/lib/node_modules/composer-rest-server/node_modules/composer-connector-hlfv1/lib/hlfconnection.js:999:30)
+    at <anonymous>
+Unhandled error for request POST /api/Nursery: Error: Error trying invoke business network. Error: No valid responses from any peers.
+Response from attempted peer comms was an error: Error: 2 UNKNOWN: error executing chaincode: transaction returned with failure: Error: Failed to add object with ID 'N3434242' in collection with ID 'Asset:org.kapy.payments.Nursery' as the object already exists
+    at HLFConnection.invokeChainCode (/home/ubuntu/.nvm/versions/node/v8.11.1/lib/node_modules/composer-rest-server/node_modules/composer-connector-hlfv1/lib/hlfconnection.js:999:30)
+    at <anonymous>
+Unhandled error for request POST /api/Nursery: Error: Error trying invoke business network. Error: No valid responses from any peers.
+Response from attempted peer comms was an error: Error: 2 UNKNOWN: error executing chaincode: transaction returned with failure: Error: Failed to add object with ID 'N3434242' in collection with ID 'Asset:org.kapy.payments.Nursery' as the object already exists
+    at HLFConnection.invokeChainCode (/home/ubuntu/.nvm/versions/node/v8.11.1/lib/node_modules/composer-rest-server/node_modules/composer-connector-hlfv1/lib/hlfconnection.js:999:30)
+    at <anonymous>
+Unhandled error for request POST /api/Verification: Error: Error trying invoke business network. Error: No valid responses from any peers.
+Response from attempted peer comms was an error: Error: 2 UNKNOWN: error executing chaincode: transaction returned with failure: Error: attempt to set property status on an InvalidRelationship is not allowed. InvalidRelationship created due to Object with ID 'N3434161' in collection with ID 'Asset:org.kapy.payments.Nursery' does not exist
+    at HLFConnection.invokeChainCode (/home/ubuntu/.nvm/versions/node/v8.11.1/lib/node_modules/composer-rest-server/node_modules/composer-connector-hlfv1/lib/hlfconnection.js:999:30)
+    at <anonymous>
+Unhandled error for request POST /api/Nursery: Error: Error trying invoke business network. Error: No valid responses from any peers.
+Response from attempted peer comms was an error: Error: 2 UNKNOWN: error executing chaincode: transaction returned with failure: Error: Failed to add object with ID 'N3434242' in collection with ID 'Asset:org.kapy.payments.Nursery' as the object already exists
+    at HLFConnection.invokeChainCode (/home/ubuntu/.nvm/versions/node/v8.11.1/lib/node_modules/composer-rest-server/node_modules/composer-connector-hlfv1/lib/hlfconnection.js:999:30)
+    at <anonymous>
+Unhandled error for request POST /api/Nursery: Error: Error trying invoke business network. Error: No valid responses from any peers.
+Response from attempted peer comms was an error: Error: 2 UNKNOWN: error executing chaincode: transaction returned with failure: Error: Failed to add object with ID 'N5454122' in collection with ID 'Asset:org.kapy.payments.Nursery' as the object already exists
+    at HLFConnection.invokeChainCode (/home/ubuntu/.nvm/versions/node/v8.11.1/lib/node_modules/composer-rest-server/node_modules/composer-connector-hlfv1/lib/hlfconnection.js:999:30)
+    at <anonymous>
+Unhandled error for request POST /api/Verification: Error: Error trying invoke business network. Error: No valid responses from any peers.
+Response from attempted peer comms was an error: Error: 2 UNKNOWN: error executing chaincode: transaction returned with failure: Error: attempt to set property status on an InvalidRelationship is not allowed. InvalidRelationship created due to Object with ID 'N456789121' in collection with ID 'Asset:org.kapy.payments.Nursery' does not exist
+    at HLFConnection.invokeChainCode (/home/ubuntu/.nvm/versions/node/v8.11.1/lib/node_modules/composer-rest-server/node_modules/composer-connector-hlfv1/lib/hlfconnection.js:999:30)
+    at <anonymous>
+Unhandled error for request POST /api/Nursery: Error: Error trying invoke business network. Error: No valid responses from any peers.
+Response from attempted peer comms was an error: Error: 2 UNKNOWN: error executing chaincode: transaction returned with failure: Error: Failed to add object with ID 'N456789121' in collection with ID 'Asset:org.kapy.payments.Nursery' as the object already exists
+    at HLFConnection.invokeChainCode (/home/ubuntu/.nvm/versions/node/v8.11.1/lib/node_modules/composer-rest-server/node_modules/composer-connector-hlfv1/lib/hlfconnection.js:999:30)
+    at <anonymous>
+Discovering types from business network definition ...
+Discovered types from business network definition
+Generating schemas for all types in business network definition ...
+Generated schemas for all types in business network definition
+Adding schemas for all types to Loopback ...
+Added schemas for all types to Loopback
+Web server listening at: http://localhost:3000
+Browse your REST API at http://localhost:3000/explorer

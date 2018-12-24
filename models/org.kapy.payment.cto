@@ -1,0 +1,141 @@
+
+
+
+
+
+namespace org.kapy.payments
+ 
+enum OwnerEntity {
+  o FarmerAgent
+  o NurseryAdmin
+  o InspectionOfficer
+  o TreasuryAdmin
+}
+ 
+ 
+participant FarmerAgent identified by FarmerAgentId {
+ 
+    o String FarmerAgentId
+                
+     --> LandRecord landrecord
+ 
+}
+participant NurseryAdmin identified by nurseryId {
+ 
+    o String nurseryId
+                
+    --> LandRecord landrecord
+ 
+}
+ 
+participant InspectionOfficer identified by InspectionOfficerId {
+ 
+    o String InspectionOfficerId
+                
+    --> LandRecord landrecord
+}
+ 
+participant TreasuryAdmin identified by TreasuryId {
+ 
+    o String TreasuryId
+                
+    --> LandRecord landrecord
+}
+ 
+ 
+ 
+asset LandRecord identified by eid {
+ 
+    o String  eid
+ 
+    o String  LnRecId
+ 
+    o Integer NoSeedReq
+ 
+    o DateTime  SubmittedDate
+                
+    o String  BankDetails
+
+    o Boolean isFarmerRecApproved
+
+    o Integer inspectionCompletedForYear
+
+    o Integer NoSeedSurvForYear
+
+    o Integer AmountProcessed
+
+    o Integer SeedlingPrice
+
+    o OwnerEntity ownerEntity
+ 
+}
+ 
+asset Nursery identified by nurseryRecordsId {
+ 
+  o String nurseryRecordsId
+
+  o String status
+                
+   --> LandRecord landrecord
+                
+   o OwnerEntity ownerEntity
+ 
+}
+ 
+asset GoK identified by GoKRecordsId {
+ 
+    o String GoKRecordsId
+
+    o Integer inspectionCompletedForYear
+
+    o Integer NoSeedSurvForYear
+
+     --> LandRecord landrecord
+
+     o OwnerEntity ownerEntity
+
+}
+ 
+asset Treasury identified by TreasuryRecordsId {
+ 
+    o String TreasuryRecordsId
+
+    o Integer SeedlingPrice
+
+     --> LandRecord landrecord
+ 
+    o OwnerEntity ownerEntity
+                
+  }
+ 
+ transaction Registration {
+ 
+ o LandRecord landrecord
+ 
+ }
+transaction Verification {
+ 
+o   Nursery nursery
+
+--> LandRecord landrecord
+
+}
+ 
+ 
+transaction Monitoring {
+ 
+ o   GoK gok
+
+ --> LandRecord landrecord
+
+}
+ 
+transaction Disbursement {
+ 
+   o   Treasury treasury
+
+   --> LandRecord landrecord
+ 
+}
+ 
+

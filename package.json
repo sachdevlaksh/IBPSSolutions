@@ -1,10 +1,10 @@
 {
   "engines": {
-    "composer": "^0.19.12"
+    "composer": "^0.20.5"
   },
   "name": "digipay-system",
-  "version": "0.0.3",
-  "description": "It invloves Three Process : 1)Distribution of  seeds to farmer 2)Inspection of crops for three consecutive years 3)Disbursement of money  ",
+  "version": "0.0.1",
+  "description": "It invloves Three Process : 1)Distribution of  seeds to farmer 2)Inspection of crops for three consecutive years 3)Disbursement of money",
   "scripts": {
     "prepublish": "mkdirp ./dist && composer archive create --sourceType dir --sourceName . -a ./dist/digipay-system.bna",
     "pretest": "npm run lint",
@@ -19,12 +19,12 @@
   "email": "lakshay.sachdeva@cognizant.com",
   "license": "Apache-2.0",
   "devDependencies": {
-    "composer-admin": "^0.19.12",
-    "composer-cli": "^0.19.12",
-    "composer-client": "^0.19.12",
-    "composer-common": "^0.19.12",
-    "composer-connector-embedded": "^0.19.12",
-    "composer-cucumber-steps": "^0.19.12",
+    "composer-admin": "^0.20.5",
+    "composer-cli": "^0.20.5",
+    "composer-client": "^0.20.5",
+    "composer-common": "^0.20.5",
+    "composer-connector-embedded": "^0.20.5",
+    "composer-cucumber-steps": "^0.20.5",
     "chai": "latest",
     "chai-as-promised": "latest",
     "cucumber": "^2.2.0",

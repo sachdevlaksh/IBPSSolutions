@@ -315,3 +315,19 @@ Adding schemas for all types to Loopback ...
 Added schemas for all types to Loopback
 Web server listening at: http://localhost:3000
 Browse your REST API at http://localhost:3000/explorer
+Discovering types from business network definition ...
+Connection fails: Error: Error trying to ping. Error: Composer runtime (0.20.0) is not compatible with client (0.19.12)
+It will be retried for the next request.
+Exception: Error: Error trying to ping. Error: Composer runtime (0.20.0) is not compatible with client (0.19.12)
+Error: Error trying to ping. Error: Composer runtime (0.20.0) is not compatible with client (0.19.12)
+    at _checkRuntimeVersions.then.catch (/home/ubuntu/.nvm/versions/node/v8.11.1/lib/node_modules/composer-rest-server/node_modules/composer-connector-hlfv1/lib/hlfconnection.js:813:34)
+    at <anonymous>
+Discovering types from business network definition ...
+Discovering the Returning Transactions..
+Discovered types from business network definition
+Generating schemas for all types in business network definition ...
+Generated schemas for all types in business network definition
+Adding schemas for all types to Loopback ...
+Added schemas for all types to Loopback
+Web server listening at: http://localhost:3001
+Browse your REST API at http://localhost:3001/explorer
